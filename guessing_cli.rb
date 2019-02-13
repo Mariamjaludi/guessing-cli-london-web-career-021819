@@ -10,6 +10,8 @@ def run_guessing_game
     puts "You guessed the correct number!"
   elsif guess != random
     puts "The computer guessed #{random}."
+  else
+    puts "Invalid Input"
   end
 
 end
