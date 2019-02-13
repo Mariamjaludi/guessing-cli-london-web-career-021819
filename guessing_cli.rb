@@ -11,7 +11,7 @@ def run_guessing_game
   elsif guess != random
     puts "The computer guessed #{random}."
   else
-    puts "Invalid Input"
+    puts "Invalid input"
   end
 
 end
